@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="2.685" tests="50" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\mohr0021\Documents\Winter 2020\Enterprise Programming\Assignments\Assign3\20WAssignment3_starter\20WAssignment3_starter\target\test-classes;C:\Users\mohr0021\Documents\Winter 2020\Enterprise Programming\Assignments\Assign3\20WAssignment3_starter\20WAssignment3_starter\target\classes;C:\Users\mohr0021\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\mohr0021\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\mohr0021\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\eclipselink\2.7.3\eclipselink-2.7.3.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\commonj.sdo\2.1.1\commonj.sdo-2.1.1.jar;C:\Users\mohr0021\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\mohr0021\.m2\repository\javax\json\javax.json-api\1.1.2\javax.json-api-1.1.2.jar;C:\Users\mohr0021\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.modelgen.processor\2.7.3\org.eclipse.persistence.jpa.modelgen.processor-2.7.3.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.core\2.7.3\org.eclipse.persistence.core-2.7.3.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.asm\2.7.3\org.eclipse.persistence.asm-2.7.3.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa\2.7.3\org.eclipse.persistence.jpa-2.7.3.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\javax.persistence\2.2.1\javax.persistence-2.2.1.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.antlr\2.7.3\org.eclipse.persistence.antlr-2.7.3.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.jpql\2.7.3\org.eclipse.persistence.jpa.jpql-2.7.3.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.extension\2.7.3\org.eclipse.persistence.extension-2.7.3.jar;C:\Users\mohr0021\.m2\repository\com\h2database\h2\1.4.200\h2-1.4.200.jar;C:\Users\mohr0021\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\mohr0021\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mohr0021\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\mohr0021\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;"/>
+    <property name="java.vm.vendor" value=""/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\OpenJDK\jdk-8.0.232.09-hotspot\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\mohr0021\AppData\Local\Temp\surefire7992762063115117951\surefirebooter5913796925079606103.jar C:\Users\mohr0021\AppData\Local\Temp\surefire7992762063115117951 2020-04-06T21-14-38_535-jvmRun1 surefire6191433692203916148tmp surefire_05239501275066108001tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\mohr0021\Documents\Winter 2020\Enterprise Programming\Assignments\Assign3\20WAssignment3_starter\20WAssignment3_starter\target\test-classes;C:\Users\mohr0021\Documents\Winter 2020\Enterprise Programming\Assignments\Assign3\20WAssignment3_starter\20WAssignment3_starter\target\classes;C:\Users\mohr0021\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\mohr0021\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\mohr0021\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\eclipselink\2.7.3\eclipselink-2.7.3.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\commonj.sdo\2.1.1\commonj.sdo-2.1.1.jar;C:\Users\mohr0021\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\mohr0021\.m2\repository\javax\json\javax.json-api\1.1.2\javax.json-api-1.1.2.jar;C:\Users\mohr0021\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.modelgen.processor\2.7.3\org.eclipse.persistence.jpa.modelgen.processor-2.7.3.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.core\2.7.3\org.eclipse.persistence.core-2.7.3.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.asm\2.7.3\org.eclipse.persistence.asm-2.7.3.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa\2.7.3\org.eclipse.persistence.jpa-2.7.3.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\javax.persistence\2.2.1\javax.persistence-2.2.1.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.antlr\2.7.3\org.eclipse.persistence.antlr-2.7.3.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.jpql\2.7.3\org.eclipse.persistence.jpa.jpql-2.7.3.jar;C:\Users\mohr0021\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.extension\2.7.3\org.eclipse.persistence.extension-2.7.3.jar;C:\Users\mohr0021\.m2\repository\com\h2database\h2\1.4.200\h2-1.4.200.jar;C:\Users\mohr0021\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\mohr0021\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mohr0021\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\mohr0021\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\mohr0021"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\OpenJDK\jdk-8.0.232.09-hotspot\jre"/>
+    <property name="basedir" value="C:\Users\mohr0021\Documents\Winter 2020\Enterprise Programming\Assignments\Assign3\20WAssignment3_starter\20WAssignment3_starter"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\mohr0021\AppData\Local\Temp\surefire7992762063115117951\surefirebooter5913796925079606103.jar"/>
+    <property name="sun.boot.class.path" value="C:\OpenJDK\jdk-8.0.232.09-hotspot\jre\lib\resources.jar;C:\OpenJDK\jdk-8.0.232.09-hotspot\jre\lib\rt.jar;C:\OpenJDK\jdk-8.0.232.09-hotspot\jre\lib\sunrsasign.jar;C:\OpenJDK\jdk-8.0.232.09-hotspot\jre\lib\jsse.jar;C:\OpenJDK\jdk-8.0.232.09-hotspot\jre\lib\jce.jar;C:\OpenJDK\jdk-8.0.232.09-hotspot\jre\lib\charsets.jar;C:\OpenJDK\jdk-8.0.232.09-hotspot\jre\lib\jfr.jar;C:\OpenJDK\jdk-8.0.232.09-hotspot\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_232-b09"/>
+    <property name="user.name" value="mohr0021"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\OpenJDK\jdk-8.0.232.09-hotspot\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\mohr0021\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\mohr0021\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_232"/>
+    <property name="user.dir" value="C:\Users\mohr0021\Documents\Winter 2020\Enterprise Programming\Assignments\Assign3\20WAssignment3_starter\20WAssignment3_starter"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\OpenJDK\jdk-8.0.232.09-hotspot\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/OpenJDK/jdk-8.0.232.09-hotspot/bin/../jre/bin/server;C:/OpenJDK/jdk-8.0.232.09-hotspot/bin/../jre/bin;C:/OpenJDK/jdk-8.0.232.09-hotspot/bin/../jre/lib/amd64;C:\OpenJDK\jdk-8.0.232.09-hotspot\bin;C:\app\mohr0021\product\12.1.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\OpenJDK\jdk-8.0.232.09-hotspot\\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Crucial\Crucial Storage Executive;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\apache-maven-3.6.1\bin;C:\Program Files\Git\cmd;C:\Users\mohr0021\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\mohr0021\AppData\Local\Programs\Python\Python38\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\mohr0021\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mohr0021\AppData\Roaming\npm;C:\Users\mohr0021\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\mohr0021\AppData\Local\GitHubDesktop\bin;C:\20w-cst8277-eclipse\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="25.232-b09"/>
+    <property name="java.ext.dirs" value="C:\OpenJDK\jdk-8.0.232.09-hotspot\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="test01_setup" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.096"/>
+  <testcase name="test02_new_employee" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.309"/>
+  <testcase name="test03_expensive_employees" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.018"/>
+  <testcase name="test04_employee_count" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.018"/>
+  <testcase name="test05_employees_no_projects" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.023"/>
+  <testcase name="test06_employees_last_name" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.034"/>
+  <testcase name="test07_employee_tasks" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.033"/>
+  <testcase name="test08_remove_tasks" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.025"/>
+  <testcase name="test09_new_project" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.017"/>
+  <testcase name="test10_assign_project" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.009"/>
+  <testcase name="test11_remove_project" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.01"/>
+  <testcase name="test12_no_phones" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.007"/>
+  <testcase name="test13_new_mobile_phone" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.009"/>
+  <testcase name="test14_new_home_phone" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.008"/>
+  <testcase name="test15_new_work_phone" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.008"/>
+  <testcase name="test16_assigning_phones" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.015"/>
+  <testcase name="test17_remove_phones" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.01"/>
+  <testcase name="test18_remove_emp" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.008"/>
+  <testcase name="test19_new_address" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.046"/>
+  <testcase name="test20_update_address_cascade" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.003"/>
+  <testcase name="test21_remove_address_cascade" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.01"/>
+  <testcase name="test22_update_salary" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.011"/>
+  <testcase name="test23_listener_create_timestamp" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.004"/>
+  <testcase name="test24_listener_update_timestamp" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.007"/>
+  <testcase name="test25_employee_version" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.008"/>
+  <testcase name="test26_task_finished" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.019"/>
+  <testcase name="test27_task_dates" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.02"/>
+  <testcase name="test28_employees_salaries" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.005"/>
+  <testcase name="test29_employees_no_address" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.007"/>
+  <testcase name="test30_employees_with_title" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.002"/>
+  <testcase name="test31_projects_with_name" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.006"/>
+  <testcase name="test32_phones_no_employee" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.003"/>
+  <testcase name="test33_employee_auto_id" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.003"/>
+  <testcase name="test34_remaining_phones_type" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.004"/>
+  <testcase name="test35_employees_email" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.006"/>
+  <testcase name="test36_employees_created_April" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.012"/>
+  <testcase name="test37_employees_titles" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.004"/>
+  <testcase name="test38_employees_full_name" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.007"/>
+  <testcase name="test39_employees_home_phone_directions" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.004"/>
+  <testcase name="test40_employees_mobile_phone_provider" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.008"/>
+  <testcase name="test41_employees_work_phone_department" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.01"/>
+  <testcase name="test42_employees_first_name" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.003"/>
+  <testcase name="test43_delete_all_projects" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.006"/>
+  <testcase name="test44_delete_all_tasks" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.014"/>
+  <testcase name="test45_address_search_like" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.012"/>
+  <testcase name="test46_delete_all_addresses" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.008"/>
+  <testcase name="test47_employee_auto_ids" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.003"/>
+  <testcase name="test48_projects_search_like" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.011"/>
+  <testcase name="test49_delete_all_employees" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.029"/>
+  <testcase name="test50_phone_orphan_removal" classname="com.algonquincollege.cst8277.models.EmployeeSystemTestSuite" time="0.001"/>
+</testsuite>
